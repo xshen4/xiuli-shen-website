@@ -1,0 +1,152 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: 2px solid #fff;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #2196F3;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0,0,0,.5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.cover-heading {
+  font-size: 2.8rem;
+}
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cover-container .fa {
+  font-size: 40px;
+  padding-right: 20px;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 20px;
+}
+
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: bold;
+  color: rgba(255,255,255,.70);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255,255,255,.25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 15px;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.nav-masthead {
+  float: right;
+}
+
+.cover {
+  padding: 0 15px;
+}
+.cover .btn-lg {
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+.inner-container {
+  display: flex;
+  justify-content: center;
+}
+.inner-container.resume{
+  flex-direction: column;
+}
+.inner-container span {
+  padding-right: 20px;
+}
+.inner-container span.lead {
+  background-color: #64B5F6;
+  padding: 15px;
+  margin-right: 10px;
+  box-shadow: 0 1px 1px rgba(0,0,0,.40);
+}
+.inner-container.resume span.lead {
+  background-color: #64B5F6;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 1px rgba(0,0,0,.40);
+}
+.cover-container .download .fa{
+  font-size: 18px;
+  padding-right: 5px;
+}
+
+.masthead {
+ top: 0;
+}
+.mastfoot {
+  bottom: 0;
+}
+/* Start the vertical centering */
+.wrapper-inner {
+ vertical-align: middle;
+}
+/* Handle the widths */
+.masthead,
+.mastfoot,
+.cover-container {
+ width: 100%; /* Must be percentage or pixels for horizontal alignment */
+}
