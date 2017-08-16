@@ -134,6 +134,17 @@ body {
   padding-right: 5px;
 }
 
+/* media properties for smaller tablets and phones */
+@media (max-width:500px){
+  .inner-container {
+    flex-direction: column;
+  }
+  .inner-container span.lead {
+    margin-bottom: 10px;
+  }
+}
+
+
 .masthead {
  top: 0;
 }
